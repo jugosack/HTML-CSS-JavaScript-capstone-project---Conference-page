@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --black: #3e3e3e;
+  --black2: #545454;
+  --black-card: #3c3f46;
+  --black-bg: #414246;
+  --red: #ec5242;
+  --orange: #f95d13;
+  --gray: #d3d3d3;
+  --gray2: #8f8f8f;
+  --white: #fbfbfb;
+  --white2: #fafafa;
+  --white-bg: #f8f8f8;
+  --white-bg2: #f2f2f2;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  transition: all 0.2s linear;
+  list-style: none;
+  text-decoration: none;
+}
+
+*::selection {
+  background: var(--orange);
+  color: var(--white);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #333;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
+
+.padding {
+  padding: 0 10%;
+}
+
+.header-two #icon {
+  font-size: 3.5rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+
+.header-one {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--black);
+    height: 4rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .header-one ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-one ul li {
+    color: var(--white);
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+  
+  .header-one ul li:hover {
+    color: var(--orange);
+    transform: scale(1.1);
+  }
+
+  .header-two {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--white2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .header-two .icon {
+    display: none;
+  }
+  
+  .header-two .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 10%;
+  }
+  
+  .header-two .logo img {
+    width: 8rem;
+    animation: float 2s linear infinite;
+    margin-right: 0.2rem;
+  }
+  .header-two .logo span {
+    color: var(--orange);
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+  }
+  
+  .header-two .navbar {
+    padding-right: 8%;
+  }
+  
+  .header-two .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-two .navbar ul li a {
+    margin: 0 4rem;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: var(--black);
+  }
+  
+  .header-two .navbar ul li a:hover {
+    transform: scale(1.1);
+  }
+  
+  .header-two .navbar .active {
+    color: var(--orange);
+  }
+  
+  .header-two .navbar .selected {
+    color: var(--orange);
+    border: 4px solid var(--orange);
+    padding: 0.9rem;
+  }
+  .hero {
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background:url(../images/desktop/main_big.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .hero .content {
+    width: 50%;
+  }
+  
+  .hero .content h1 {
+    font-size: 3rem;
+    color: var(--orange);
+  }
+  
+  .hero .content h2 {
+    font-size: 4rem;
+    color: var(--red);
+    letter-spacing: 0.8rem;
+    padding: 2rem 0;
+  }
+  
+  .hero .content p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    width: 80%;
+    padding: 1.5rem;
+    border: 2px solid var(--white2);
+    color: var(--black);
+    border-radius: 0.3rem;
+    background-color: var(--white-bg);
+    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero .content h3 {
+    color: var(--black2);
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 3rem;
+  }
+  
+  .hero .content h4 {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    padding-top: 0.5rem;
+  }
+  
