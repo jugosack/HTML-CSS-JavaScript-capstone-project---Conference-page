@@ -66,7 +66,7 @@ html::-webkit-scrollbar-thumb {
     align-items: center;
     background-color: var(--black);
     height: 4rem;
-    position: fixed;
+   /* position: fixed;*/
     left: 0;
     right: 0;
     z-index: 1000;
@@ -100,7 +100,7 @@ html::-webkit-scrollbar-thumb {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
-    position: fixed;
+   /* position: fixed;*/
     top: 4rem;
     left: 0;
     right: 0;
@@ -186,7 +186,7 @@ html::-webkit-scrollbar-thumb {
   }
   
   .scroll {
-    position: fixed;
+    /*position: fixed;*/
     top: -120%;
     right: 2rem;
     padding: 0.5rem 1.5rem;
@@ -207,12 +207,12 @@ html::-webkit-scrollbar-thumb {
 
   .hero {
     width: 100%;
-    height: 150vh;
+    height: 750px;
     padding: 5rem 10%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background:url(./images/desktop/agreat.jpeg);
+    background:url(./images/desktop/main_big.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@ html::-webkit-scrollbar-thumb {
   
   .program .row {
     width: 100%;
-    padding: 0 5rem;
+    padding: 7rem 5rem 0 5rem;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -331,11 +331,19 @@ html::-webkit-scrollbar-thumb {
     font-size: 2rem;
     cursor: pointer;
     color: var(--white);
-    text-align: center;
-    padding-top: 10rem;
-    text-decoration: underline;
+    /* text-align: center; */
+    /* padding-top: 10rem; */
+    /* text-decoration: underline; */
     text-transform: uppercase;
-    padding-bottom: 8rem;
+    /* padding-bottom: 8rem; */
+    text-align: right;
+    */: ;
+    padding-right: 300px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 260px;
+    padding-top: 20px;
+}
   }
   
   
