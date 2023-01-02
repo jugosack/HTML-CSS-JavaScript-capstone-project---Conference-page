@@ -163,14 +163,56 @@ html::-webkit-scrollbar-thumb {
     border: 4px solid var(--orange);
     padding: 0.9rem;
   }
+
+  .heading {
+    padding: 2rem 0;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--black);
+  }
+  
+  .heading::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: var(--orange);
+    margin: 0.9rem auto;
+  }
+
+  .join {
+    display: none;
+  }
+  
+  .scroll {
+    position: fixed;
+    top: -120%;
+    right: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 4rem;
+    background: var(--red);
+    color: #fff;
+    border-radius: 0.5rem;
+    transition: 1s linear;
+    z-index: 1000;
+  }
+  
+  .scroll.active {
+    top: calc(100% - 12rem);
+  }
+  
+
+  /********** HERO SECYION START ****************/ 
+
   .hero {
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     padding: 5rem 10%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background:url(../images/desktop/main_big.png);
+    background:url(./images/desktop/agreat.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,14 +236,19 @@ html::-webkit-scrollbar-thumb {
   
   .hero .content p {
     font-size: 1.5rem;
+    /* font-size: 1.125rem; */
     line-height: 1.8;
     width: 80%;
     padding: 1.5rem;
-    border: 2px solid var(--white2);
+    /* border: 2px solid #3e3e3e; */
+    /* border: 4px solid #fff; */
     color: var(--black);
     border-radius: 0.3rem;
     background-color: var(--white-bg);
-    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%); */
+    border: 4px solid #fff;
+    background-color: #f7f7f8;
+    
   }
   
   .hero .content h3 {
@@ -218,4 +265,77 @@ html::-webkit-scrollbar-thumb {
     letter-spacing: 0.1rem;
     padding-top: 0.5rem;
   }
+
+  /* ****************** Program************************* */
+
+.program {
+    width: 100%;
+    /*height: 70vh;*/
+    background: url(./images/desktop/pattern_bg.png);
+   /* display: grid;
+    place-items: center;*/
+
+    background-repeat: repeat;
+    background-color: #272a32;
+    height: 637px;
+  }
+  
+  .program .heading {
+    color: var(--white);
+    padding-top: 5rem;
+  }
+  
+  .program .row {
+    width: 100%;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .program .row .card {
+    width: 20rem;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    background-color: var(--black-card);
+    height: 19rem;
+    cursor: pointer;
+  }
+  
+  .program .row .card:hover {
+    transform: scale(1.1);
+    border: 1px solid var(--gray);
+  }
+  
+  .program .row .card i {
+    color: var(--gray);
+    font-size: 3rem;
+  }
+  
+  .program .row .card h2 {
+    color: var(--orange);
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+  }
+  
+  .program .row .card p {
+    color: var(--gray);
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .program .whole {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--white);
+    text-align: center;
+    padding-top: 10rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-bottom: 8rem;
+  }
+  
   
