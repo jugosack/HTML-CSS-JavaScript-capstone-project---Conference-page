@@ -229,9 +229,13 @@ html::-webkit-scrollbar-thumb {
   
   .hero .content h2 {
     font-size: 4rem;
-    color: var(--red);
+    /*color: var(--red);*/
     letter-spacing: 0.8rem;
     padding: 2rem 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('./images/desktop/pom.jpeg');
   }
   
   .hero .content p {
@@ -343,6 +347,18 @@ html::-webkit-scrollbar-thumb {
     justify-content: flex-end;
     padding-right: 260px;
     padding-top: 20px;
+}
+
+@keyframes blink{
+50%{
+  opacity: 0;
+}
+
+}
+
+.program .whole .big_t {
+animation:blink 1s linear infinite;
+
 }
   /* *************************************** Speakers ************************************/
 .speakers {
