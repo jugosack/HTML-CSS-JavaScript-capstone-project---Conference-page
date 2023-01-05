@@ -87,6 +87,16 @@ html::-webkit-scrollbar-thumb {
   font-weight: 300;
 }
 
+.partner ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--gray2);
+}
+
 .header-one ul li:hover {
   color: var(--orange);
   transform: scale(1.1);
@@ -136,6 +146,14 @@ html::-webkit-scrollbar-thumb {
 
 .header-two .navbar {
   padding-right: 8%;
+}
+
+.partner ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10rem;
 }
 
 .header-two .navbar ul {
@@ -235,7 +253,8 @@ html::-webkit-scrollbar-thumb {
   /* color: var(--red); */
   letter-spacing: 0.8rem;
   padding: 2rem 0;
-  background-clip: text;
+
+  /* background-clip: text; */
   -webkit-background-clip: text;
   color: transparent;
   background-image: url('./images/desktop/pom.jpeg');
@@ -258,7 +277,8 @@ html::-webkit-scrollbar-thumb {
 
   /* box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%); */
   border: 4px solid #fff;
-  background-color: #f7f7f8;
+
+  /* background-color: #f7f7f8; */
 }
 
 .hero .content h3 {
@@ -316,9 +336,14 @@ html::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.program .row .card:hover {
-  transform: scale(1.1);
-  border: 1px solid var(--gray);
+.partner ul li i {
+  font-size: 8rem;
+  color: var(--white2);
+}
+
+.footer .content-1 i {
+  font-size: 2rem;
+  margin-right: 0.5rem;
 }
 
 .program .row .card i {
@@ -331,6 +356,12 @@ html::-webkit-scrollbar-thumb {
   text-transform: capitalize;
   font-size: 1.8rem;
   padding: 1.5rem 0;
+}
+
+.footer .content-2 p {
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
 
 .program .row .card p {
@@ -353,8 +384,6 @@ html::-webkit-scrollbar-thumb {
 
   /* padding-bottom: 8rem; */
   text-align: right;
-  */: ;
-  padding-right: 300px;
   display: flex;
   justify-content: flex-end;
   padding-right: 260px;
@@ -434,6 +463,11 @@ html::-webkit-scrollbar-thumb {
   font-size: 1.5rem;
 }
 
+.program .row .card:hover {
+  transform: scale(1.1);
+  border: 1px solid var(--gray);
+}
+
 /********* PARTNER *****************/
 .partner {
   margin-top: 10rem;
@@ -446,29 +480,6 @@ html::-webkit-scrollbar-thumb {
 .partner .heading {
   padding: 3rem 0;
   color: var(--gray2);
-}
-
-.partner ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10rem;
-}
-
-.partner ul li {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  cursor: pointer;
-  font-size: 2rem;
-  text-transform: capitalize;
-  color: var(--gray2);
-}
-
-.partner ul li i {
-  font-size: 8rem;
-  color: var(--white2);
 }
 
 .footer {
@@ -490,21 +501,12 @@ html::-webkit-scrollbar-thumb {
   color: var(--black);
 }
 
-.footer .content-1 i {
-  font-size: 2rem;
-  margin-right: 0.5rem;
-}
-
 .footer .content-2 {
   width: 60rem;
   color: var(--black2);
 }
 
-.footer .content-2 p {
-  padding-top: 0.5rem;
-  font-size: 1.3rem;
-  line-height: 1.4;
-}
+
 
 
 
