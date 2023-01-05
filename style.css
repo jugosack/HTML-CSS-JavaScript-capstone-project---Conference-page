@@ -58,312 +58,324 @@ html::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-
 .header-one {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: var(--black);
-    height: 4rem;
-   /* position: fixed;*/
-    left: 0;
-    right: 0;
-    z-index: 1000;
-  }
-  
-  .header-one ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .header-one ul li {
-    color: var(--white);
-    margin-right: 3rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    text-transform: capitalize;
-    font-weight: 300;
-  }
-  
-  .header-one ul li:hover {
-    color: var(--orange);
-    transform: scale(1.1);
-  }
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--black);
+  height: 4rem;
 
-  .header-two {
-    width: 100%;
-    height: 10rem;
-    background-color: var(--white2);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
-   /* position: fixed;*/
-    top: 4rem;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-  }
-  
-  .header-two .icon {
-    display: none;
-  }
-  
-  .header-two .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding-left: 10%;
-  }
-  
-  .header-two .logo img {
-    width: 8rem;
-    animation: float 2s linear infinite;
-    margin-right: 0.2rem;
-  }
-  .header-two .logo span {
-    color: var(--orange);
-    font-size: 1.5rem;
-    margin-left: 0.5rem;
-    font-weight: 600;
-    letter-spacing: 0.3rem;
-  }
-  
-  .header-two .navbar {
-    padding-right: 8%;
-  }
-  
-  .header-two .navbar ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .header-two .navbar ul li a {
-    margin: 0 4rem;
-    font-size: 1.8rem;
-    text-transform: capitalize;
-    cursor: pointer;
-    color: var(--black);
-  }
-  
-  .header-two .navbar ul li a:hover {
-    transform: scale(1.1);
-  }
-  
-  .header-two .navbar .active {
-    color: var(--orange);
-  }
-  
-  .header-two .navbar .selected {
-    color: var(--orange);
-    border: 4px solid var(--orange);
-    padding: 0.9rem;
-  }
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
 
-  .heading {
-    padding: 2rem 0;
-    text-transform: capitalize;
-    font-size: 2.5rem;
-    text-align: center;
-    color: var(--black);
-  }
-  
-  .heading::after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 1px;
-    background-color: var(--orange);
-    margin: 0.9rem auto;
-  }
+.header-one ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .join {
-    display: none;
-  }
-  
-  .scroll {
-    /*position: fixed;*/
-    top: -120%;
-    right: 2rem;
-    padding: 0.5rem 1.5rem;
-    font-size: 4rem;
-    background: var(--red);
-    color: #fff;
-    border-radius: 0.5rem;
-    transition: 1s linear;
-    z-index: 1000;
-  }
-  
-  .scroll.active {
-    top: calc(100% - 12rem);
-  }
-  
+.header-one ul li {
+  color: var(--white);
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 300;
+}
 
-  /********** HERO SECTION START ****************/ 
+.header-one ul li:hover {
+  color: var(--orange);
+  transform: scale(1.1);
+}
 
-  .hero {
-    width: 100%;
-    height: 750px;
-    padding: 5rem 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background:url(./images/desktop/main_big.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .hero .content {
-    width: 50%;
-  }
-  
-  .hero .content h1 {
-    font-size: 3rem;
-    color: var(--orange);
-  }
-  
-  .hero .content h2 {
-    font-size: 4rem;
-    /*color: var(--red);*/
-    letter-spacing: 0.8rem;
-    padding: 2rem 0;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image: url('./images/desktop/pom.jpeg');
-  }
-  
-  .hero .content p {
-    font-size: 1.5rem;
-    /* font-size: 1.125rem; */
-    line-height: 1.8;
-    width: 80%;
-    padding: 1.5rem;
-    /* border: 2px solid #3e3e3e; */
-    /* border: 4px solid #fff; */
-    color: var(--black);
-    border-radius: 0.3rem;
-    background-color: var(--white-bg);
-    /* box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%); */
-    border: 4px solid #fff;
-    background-color: #f7f7f8;
-    
-  }
-  
-  .hero .content h3 {
-    color: var(--black2);
-    font-size: 3rem;
-    font-weight: bold;
-    padding-top: 3rem;
-  }
-  
-  .hero .content h4 {
-    color: var(--black);
-    font-size: 1.5rem;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-    padding-top: 0.5rem;
-  }
+.header-two {
+  width: 100%;
+  height: 10rem;
+  background-color: var(--white2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
 
-  /******************* PROGRAM ************************* */
+  /* position: fixed; */
+  top: 4rem;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header-two .icon {
+  display: none;
+}
+
+.header-two .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-left: 10%;
+}
+
+.header-two .logo img {
+  width: 8rem;
+  animation: float 2s linear infinite;
+  margin-right: 0.2rem;
+}
+
+.header-two .logo span {
+  color: var(--orange);
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+
+.header-two .navbar {
+  padding-right: 8%;
+}
+
+.header-two .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-two .navbar ul li a {
+  margin: 0 4rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.header-two .navbar ul li a:hover {
+  transform: scale(1.1);
+}
+
+.header-two .navbar .active {
+  color: var(--orange);
+}
+
+.header-two .navbar .selected {
+  color: var(--orange);
+  border: 4px solid var(--orange);
+  padding: 0.9rem;
+}
+
+.heading {
+  padding: 2rem 0;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--black);
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: var(--orange);
+  margin: 0.9rem auto;
+}
+
+.join {
+  display: none;
+}
+
+.scroll {
+  /* position: fixed; */
+  top: -120%;
+  right: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 4rem;
+  background: var(--red);
+  color: #fff;
+  border-radius: 0.5rem;
+  transition: 1s linear;
+  z-index: 1000;
+}
+
+.scroll.active {
+  top: calc(100% - 12rem);
+}
+
+
+/********** HERO SECTION START ****************/
+
+.hero {
+  width: 100%;
+  height: 750px;
+  padding: 5rem 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(./images/desktop/main_big.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero .content {
+  width: 50%;
+}
+
+.hero .content h1 {
+  font-size: 3rem;
+  color: var(--orange);
+}
+
+.hero .content h2 {
+  font-size: 4rem;
+
+  /* color: var(--red); */
+  letter-spacing: 0.8rem;
+  padding: 2rem 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url('./images/desktop/pom.jpeg');
+}
+
+.hero .content p {
+  font-size: 1.5rem;
+
+  /* font-size: 1.125rem; */
+  line-height: 1.8;
+  width: 80%;
+  padding: 1.5rem;
+
+  /* border: 2px solid #3e3e3e; */
+
+  /* border: 4px solid #fff; */
+  color: var(--black);
+  border-radius: 0.3rem;
+  background-color: var(--white-bg);
+
+  /* box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%); */
+  border: 4px solid #fff;
+  background-color: #f7f7f8;
+}
+
+.hero .content h3 {
+  color: var(--black2);
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 3rem;
+}
+
+.hero .content h4 {
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  padding-top: 0.5rem;
+}
+
+/******************* PROGRAM ************************* */
 
 .program {
-    width: 100%;
-    /*height: 70vh;*/
-    background: url(./images/desktop/pattern_bg.png);
-   /* display: grid;
-    place-items: center;*/
+  width: 100%;
 
-    background-repeat: repeat;
-    background-color: #272a32;
-    height: 637px;
-  }
-  
-  .program .heading {
-    color: var(--white);
-    padding-top: 5rem;
-  }
-  
-  .program .row {
-    width: 100%;
-    padding: 7rem 5rem 0 5rem;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .program .row .card {
-    width: 20rem;
-    padding: 1.5rem;
-    border-radius: 0.3rem;
-    text-align: center;
-    background-color: var(--black-card);
-    height: 19rem;
-    cursor: pointer;
-  }
-  
-  .program .row .card:hover {
-    transform: scale(1.1);
-    border: 1px solid var(--gray);
-  }
-  
-  .program .row .card i {
-    color: var(--gray);
-    font-size: 3rem;
-  }
-  
-  .program .row .card h2 {
-    color: var(--orange);
-    text-transform: capitalize;
-    font-size: 1.8rem;
-    padding: 1.5rem 0;
-  }
-  
-  .program .row .card p {
-    color: var(--gray);
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-  
-  .program .whole {
-    font-size: 2rem;
-    cursor: pointer;
-    color: var(--white);
-    /* text-align: center; */
-    /* padding-top: 10rem; */
-    /* text-decoration: underline; */
-    text-transform: uppercase;
-    /* padding-bottom: 8rem; */
-    text-align: right;
-    */: ;
-    padding-right: 300px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 260px;
-    padding-top: 20px;
+  /* height: 70vh; */
+  background: url(./images/desktop/pattern_bg.png);
+
+  /* display: grid;
+    place-items: center; */
+
+  background-repeat: repeat;
+  background-color: #272a32;
+  height: 637px;
 }
 
-@keyframes blink{
-50%{
-  opacity: 0;
+.program .heading {
+  color: var(--white);
+  padding-top: 5rem;
 }
 
+.program .row {
+  width: 100%;
+  padding: 7rem 5rem 0 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.program .row .card {
+  width: 20rem;
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  background-color: var(--black-card);
+  height: 19rem;
+  cursor: pointer;
+}
+
+.program .row .card:hover {
+  transform: scale(1.1);
+  border: 1px solid var(--gray);
+}
+
+.program .row .card i {
+  color: var(--gray);
+  font-size: 3rem;
+}
+
+.program .row .card h2 {
+  color: var(--orange);
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  padding: 1.5rem 0;
+}
+
+.program .row .card p {
+  color: var(--gray);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.program .whole {
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--white);
+
+  /* text-align: center; */
+
+  /* padding-top: 10rem; */
+
+  /* text-decoration: underline; */
+  text-transform: uppercase;
+
+  /* padding-bottom: 8rem; */
+  text-align: right;
+  */: ;
+  padding-right: 300px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 260px;
+  padding-top: 20px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
 .program .whole .big_t {
-animation:blink 1s linear infinite;
-
+  animation: blink 1s linear infinite;
 }
-  /* *************************************** Speakers ************************************/
+
+/* *************************************** Speakers ************************************/
 .speakers {
   width: 100%;
- /* height: 100vh;*/
+
+  /* height: 100vh; */
   background-color: var(--white-bg);
   display: grid;
   place-items: center;
@@ -458,6 +470,7 @@ animation:blink 1s linear infinite;
   font-size: 8rem;
   color: var(--white2);
 }
+
 .footer {
   width: 100%;
   height: 20vh;
@@ -539,7 +552,7 @@ animation:blink 1s linear infinite;
 
   /* ******************** Speakers *****************************/
   .speakers {
-    /*height: 150vh;*/
+    /* height: 150vh; */
   }
 
   .speakers .row {
@@ -555,17 +568,17 @@ animation:blink 1s linear infinite;
     height: auto;
   }
 
-  /* ******************** About Hero *****************************/ 
+  /* ******************** About Hero *****************************/
   .about-hero {
     height: 100vh;
   }
 
-  /* ******************** About Logo *****************************/ 
+  /* ******************** About Logo *****************************/
   .about-logo {
     height: 70vh;
   }
 
-  /* ******************************** About Conference ***************/ 
+  /* ******************************** About Conference ***************/
   .about-conference {
     height: 95vh;
   }
@@ -581,7 +594,7 @@ animation:blink 1s linear infinite;
     overflow-x: hidden;
   }
 
-  /* ******************** Header *****************************/ 
+  /* ******************** Header *****************************/
   .header-one {
     display: none;
   }
@@ -750,9 +763,8 @@ animation:blink 1s linear infinite;
   /* ******************** Speakers *****************************/
 
   .speakers {
-    /*height: 100%;*/
+    /* height: 100%; */
     background-color: var(--white-bg);
-     
   }
 
   .speakers .row {
@@ -760,7 +772,7 @@ animation:blink 1s linear infinite;
     background-color: var(--white-bg);
   }
 
-  /* ******************** Partner *****************************/ 
+  /* ******************** Partner *****************************/
   .partner {
     padding-top: 5rem;
     height: 40vh;
@@ -768,7 +780,7 @@ animation:blink 1s linear infinite;
     place-items: center;
   }
 
-  /* ******************** Footer *****************************/ 
+  /* ******************** Footer *****************************/
   .footer {
     height: 25vh;
     flex-direction: column;
@@ -776,7 +788,7 @@ animation:blink 1s linear infinite;
     text-align: center;
   }
 
-  /* ******************** About Hero *****************************/ 
+  /* ******************** About Hero *****************************/
   .about-hero {
     height: 60vh;
   }
@@ -794,7 +806,7 @@ animation:blink 1s linear infinite;
     display: block;
   }
 
-  /* ******************************** About Conference *********************************/ 
+  /* ******************************** About Conference *********************************/
   .about-conference {
     height: 80vh;
   }
@@ -803,7 +815,7 @@ animation:blink 1s linear infinite;
     padding-top: 2.2rem;
   }
 
-  /* ******************************** About Conference *********************************/ 
+  /* ******************************** About Conference *********************************/
   .partner.about {
     height: 40vh;
     display: block;
@@ -824,11 +836,7 @@ animation:blink 1s linear infinite;
   .footer.about i {
     color: var(--black);
   }
-  
-  
 }
-
-
 
 @media screen and (max-width: 500px) {
   html {
@@ -878,7 +886,7 @@ animation:blink 1s linear infinite;
     width: 80%;
   }
 
-  /* ******************** Program *****************************/ 
+  /* ******************** Program *****************************/
   .program {
     width: 100%;
     height: 82vh;
@@ -906,7 +914,7 @@ animation:blink 1s linear infinite;
     text-transform: capitalize;
   }
 
-  /* ******************** Speakers *****************************/ 
+  /* ******************** Speakers *****************************/
 
   .speakers .row .card {
     flex-direction: column;
@@ -918,7 +926,7 @@ animation:blink 1s linear infinite;
     margin: 0.8rem auto;
   }
 
-  /* ******************** Partnert *****************************/ 
+  /* ******************** Partnert *****************************/
   .partner {
     display: grid;
     place-items: center;
@@ -932,7 +940,7 @@ animation:blink 1s linear infinite;
     flex-wrap: wrap;
   }
 
-  /* ******************** Footer *****************************/ 
+  /* ******************** Footer *****************************/
 
   .footer {
     height: 15vh;
@@ -941,13 +949,13 @@ animation:blink 1s linear infinite;
     place-items: center;
   }
 
-  /* ******************** About Hero *****************************/ 
+  /* ******************** About Hero *****************************/
   .about-hero {
     height: 65vh;
     width: 100%;
   }
 
-  /* ******************** About Logo *****************************/ 
+  /* ******************** About Logo *****************************/
   .about-logo {
     height: 55vh;
   }
@@ -962,7 +970,4 @@ animation:blink 1s linear infinite;
     height: 15vh;
     flex-direction: column;
   }
-  
 }
-
-
