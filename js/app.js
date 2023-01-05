@@ -13,32 +13,38 @@ window.addEventListener('scroll', () => {
   header.classList.remove('header-style');
   navbar.classList.remove('nav-toggle');
 
-  /* *********Scroll Top Bottom ********* */
+  /* *********Scroll Top Bottom *********/
   if (window.scrollY > 60) {
-    document.querySelector('.scroll').classList.add('active');
+    
+    document.querySelector('.scroll').classList.add('active')
   } else {
     document.querySelector('.scroll').classList.remove('active');
   }
+  
 });
+
 
 /* ****************************** Dynamically injected content  ******************* */
 const speakers = [
     {
+      
       presenter: 'Carl Sagan',
-      title: 'Professor of Astronomy and Space Sciences',
+      title: 'Pilot with over 37years flying experience',
       description:
-      'Astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, and science communicator. His best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation',
+      'He is an experienced pilot , entrepreneur, Burning Circle airshow sponsor , flight instructor an Burning Circle Flight Academy.',
       img: 'images/desktop/speaker_01.png',
     },
     {
+      
       presenter: 'Michio Kaku',
       title:
-      'Professor of theoretical physics in the City College of New York and CUNY Graduate Center.',
+      'Pilot with over 37years flying experience.',
       description:
-      'American theoretical physicist, futurist, and popularizer of science (science communicator). Author of several books about physics and related topics and has made frequent appearances on radio, television, and film. He is also a regular contributor to his own blog, as well as other popular media outlets. ',
+      'He is an experienced pilot , entrepreneur, Burning Circle airshow sponsor , flight instructor an Burning Circle Flight Academy. ',
       img: 'images/desktop/speaker_02.png',
     },
     {
+      
       presenter: 'Jacob Bronowski',
       title: 'Polish-British mathematician and philosopher.',
       description:
@@ -46,6 +52,7 @@ const speakers = [
       img: 'images/desktop/speaker_03.png',
     },
     {
+      
       presenter: 'Stephen Hawking',
       title:
       'English theoretical physicist, cosmologist, and author of The Centre for Theoretical Cosmology at the University of Cambridge',
@@ -54,6 +61,7 @@ const speakers = [
       img: 'images/desktop/speaker_04.png',
     },
     {
+      
       presenter: 'Richard Dawkins',
       title: 'British evolutionary biologist and author.',
       description:
@@ -61,6 +69,7 @@ const speakers = [
       img: 'images/desktop/speaker_05.png',
     },
     {
+      
       presenter: 'Stephen Jay Gould',
       title:
       'American paleontologist, evolutionary biologist, and historian of science.',
