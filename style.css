@@ -222,7 +222,6 @@ html::-webkit-scrollbar-thumb {
   top: calc(100% - 12rem);
 }
 
-
 /********** HERO SECTION START ****************/
 
 .hero {
@@ -506,10 +505,6 @@ html::-webkit-scrollbar-thumb {
   color: var(--black2);
 }
 
-
-
-
-
 /* NEW BAR */
 .bar {
   display: block;
@@ -520,9 +515,6 @@ html::-webkit-scrollbar-thumb {
   transition: all 0.3s ease;
   background-color: #4080ff;
 }
-
-
-
 
 /* ******************************** Media Queries ***************************************/
 @media screen and (max-width: 1200px) {
