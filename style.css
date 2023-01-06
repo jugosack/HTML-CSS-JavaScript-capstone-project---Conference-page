@@ -678,7 +678,7 @@ html::-webkit-scrollbar-thumb {
 
   .hero .content {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .about-logo p {
@@ -912,10 +912,9 @@ html::-webkit-scrollbar-thumb {
 
   /* ******************** Speakers *****************************/
 
-   .speakers .row .card {
-    display:flex;
+  .speakers .row .card {
+    display: flex;
     flex-direction: row;
-
     align-items: flex-start;
   }
 
@@ -923,16 +922,14 @@ html::-webkit-scrollbar-thumb {
     margin: 0.8rem auto;
   }
 
-  .image{
-    max-width:100%;
-  height:auto;
-    
-  
+  .image {
+    max-width: 100%;
+    height: auto;
   }
-.content{
-  
-  width:50%;
-}
+
+  .card .content {
+    width: 50%;
+  }
 
   /* ******************** Partnert *****************************/
   .partner {
