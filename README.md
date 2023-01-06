@@ -70,7 +70,7 @@ HTML, CSS and JavaScript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://flemton.github.io/capstone1/)
+- [Live Demo Link](https://jugosack.github.io/HTML-CSS-JavaScript-capstone-project---Conference-page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
