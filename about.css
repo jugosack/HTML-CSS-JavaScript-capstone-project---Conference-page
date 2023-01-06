@@ -148,7 +148,7 @@
 .box-container .box1 {
   width: 45rem;
   height: 30rem;
-  background: url(../images/conference-1.jpg);
+  background: url(../images/desktop/conference_1.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -163,7 +163,7 @@
   cursor: pointer;
   width: 45rem;
   height: 30rem;
-  background: url(../images/conference-2.jpg);
+  background: url(../images/desktop/conference_1.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
