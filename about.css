@@ -148,7 +148,7 @@
 .box-container .box1 {
   width: 45rem;
   height: 30rem;
-  background: url(../images/desktop/conference_1.png);
+  background: url(./images/desktop/about_2011.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -163,7 +163,7 @@
   cursor: pointer;
   width: 45rem;
   height: 30rem;
-  background: url(../images/desktop/conference_1.png);
+  background: url(./images/desktop/about_2013.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -187,7 +187,7 @@
 .box-container .box2 .color-overlay {
   position: absolute;
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
   background-color: var(--red);
   opacity: 0.6;
 }
