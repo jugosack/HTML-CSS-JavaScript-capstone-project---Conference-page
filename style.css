@@ -239,6 +239,7 @@ html::-webkit-scrollbar-thumb {
 
 .hero .content {
   width: 50%;
+  margin-top: -250px;
 }
 
 .hero .content h1 {
