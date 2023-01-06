@@ -678,6 +678,7 @@ html::-webkit-scrollbar-thumb {
 
   .hero .content {
     width: 100%;
+    margin-top: 0px;
   }
 
   .about-logo p {
