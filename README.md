@@ -34,7 +34,7 @@
 **Conference page** is the first Microverse Capstone at the end of Module 1
 
 ## Video Description <a name="vid-desc">
-[Loom video describing project](#)
+[Loom video describing project](https://www.loom.com/share/69349eb9e8de4197988d23b173c3f82b)
 
 ## 🛠 Built With <a name="built-with"></a>
 
