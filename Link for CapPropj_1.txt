@@ -1,0 +1,2 @@
+*)Sample for Capstone project
+https://summit.cckorea.org/main.html
