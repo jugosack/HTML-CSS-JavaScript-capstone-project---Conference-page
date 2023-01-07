@@ -137,7 +137,7 @@
 }
 
 .box-container {
-  padding-top: 4rem;
+  /*padding-top: 4rem;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +147,7 @@
 
 .box-container .box1 {
   width: 45rem;
-  height: 30rem;
+  height: 25rem;
   background: url(./images/desktop/about_2011.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -162,7 +162,7 @@
 .box-container .box2 {
   cursor: pointer;
   width: 45rem;
-  height: 30rem;
+  height: 25rem;
   background: url(./images/desktop/about_2013.png);
   background-repeat: no-repeat;
   background-size: contain;
